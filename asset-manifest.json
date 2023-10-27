@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gestures/static/css/main.073c9b0a.css",
+    "main.js": "/gestures/static/js/main.a1a31e15.js",
+    "static/js/787.29087deb.chunk.js": "/gestures/static/js/787.29087deb.chunk.js",
+    "index.html": "/gestures/index.html",
+    "main.073c9b0a.css.map": "/gestures/static/css/main.073c9b0a.css.map",
+    "main.a1a31e15.js.map": "/gestures/static/js/main.a1a31e15.js.map",
+    "787.29087deb.chunk.js.map": "/gestures/static/js/787.29087deb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a1a31e15.js"
+  ]
+}
