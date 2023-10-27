@@ -57,23 +57,24 @@ const Sidebar = ({ children }) => {
         {isSidebarOpen && (
           <>
             <div style={{ fontSize: 24 }}>
-              <b>Gestures</b>
-              <br></br>
-              <br></br>
+              <br />
+              <b>&nbsp;&nbsp;Gestures</b>
+              <br />
+              <br />
               &nbsp;&nbsp;✊ Pan map
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               &nbsp;&nbsp;👍 Zoom out
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               &nbsp;&nbsp;👎 Zoom in
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               &nbsp;&nbsp;☝️ Return to home position
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               &nbsp;&nbsp;✌️ Exit gesture recognition
-              <br></br>
+              <br />
             </div>
           </>
         )}

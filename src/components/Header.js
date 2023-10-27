@@ -29,7 +29,7 @@ function Header() {
   return (
     <AppBar position="static" color="primary">
       <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
-        <Typography variant="h5" style={{ flex: 2, textAlign: "center" }}>
+        <Typography variant="h5" style={{ flex: 2, textAlign: "left" }}>
           Gesture-based Map Interaction
         </Typography>
         <Tooltip title="Information">
@@ -51,17 +51,23 @@ function Header() {
             <DialogContentText>
               This application enables users to interact with maps via hand
               gestures.
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               <b>Gestures</b>
-              <br></br>✊ --- Use a closed fist and move your hand to pan the
-              map in the direction you move your hand.<br></br>👍 --- Use a
-              thumbs up to zoom out.<br></br>👎 --- Use a thumbs down to zoom
-              in.<br></br>☝️ --- Use your index finger pointing up to return to
-              the initial map position.<br></br>✌️ --- Use the Victory
-              Hand/Peace Sign symbol to turn gesture controls off.
-              <br></br>
-              <br></br>
+              <br />✊ Use a closed fist and move your hand to pan the map in
+              the direction you move your hand.
+              <br />
+              👍 Use a thumbs up to zoom out.
+              <br />
+              👎 Use a thumbs down to zoom in.
+              <br />
+              ☝️ Use your index finger pointing up to return to the initial map
+              position.
+              <br />
+              ✌️ Use the Victory Hand/Peace Sign symbol to turn gesture controls
+              off.
+              <br />
+              <br />
               Created by Luke Zaruba, University of Minnesota, MGIS Program
             </DialogContentText>
           </DialogContent>

@@ -13,25 +13,6 @@ const Page = () => {
             transition: "transform 0.5s",
           }}
         >
-          {/* <iframe
-            height="100%"
-            width="100%;"
-            scrolling="no"
-            title="Gesture Map Control"
-            src="https://codepen.io/Luke-Zaruba/embed/YzdrryL?default-tab=result"
-            frameborder="no"
-            loading="lazy"
-            allowtransparency="true"
-            allowfullscreen="true"
-          >
-            See the Pen{" "}
-            <a href="https://codepen.io/Luke-Zaruba/pen/YzdrryL">
-              Gesture Map Control
-            </a>{" "}
-            by Luke Zaruba (
-            <a href="https://codepen.io/Luke-Zaruba">@Luke-Zaruba</a>) on{" "}
-            <a href="https://codepen.io">CodePen</a>.
-          </iframe> */}
           <iframe
             height="100%"
             width="100%;"
@@ -42,6 +23,7 @@ const Page = () => {
             loading="lazy"
             allowtransparency="true"
             allowfullscreen="true"
+            allow="camera"
           >
             See the Pen{" "}
             <a href="https://codepen.io/Luke-Zaruba/pen/YzdrryL">
